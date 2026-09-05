@@ -1,21 +1,29 @@
 # Ajanee Igharo
 
-MBA candidate at UMass Boston building at the intersection of strategy, business analytics, human-centered AI, product operations, and customer experience.
+MBA candidate at UMass Boston focused on product analytics, customer insight, business strategy, and responsible AI.
 
-I am especially interested in how teams use evidence to improve workflows, understand customers, and make better decisions in complex organizations, including digital health, financial services, insurance, higher education, and startup ecosystems.
-
-## What I am building toward
-
-- Product operations, business analysis, customer insights, strategy, and AI enablement roles
-- Practical AI adoption work that connects technology to real operating needs
-- Portfolio projects that show problem framing, measurement design, research synthesis, and stakeholder-ready recommendations
+I use GitHub as an evidence locker for portfolio work: project briefs, research-backed case studies, workflow notes, measurement plans, and practical AI-enabled tools. The goal is not to present myself as a software engineer. It is to show how I frame problems, document tradeoffs, connect evidence to recommendations, and make complex work easier to understand.
 
 ## Current focus
 
 - Product analytics and customer journey measurement
+- Customer insight, market research, and business strategy
 - Responsible AI and trust in user-facing systems
-- AI adoption, workflow improvement, and organizational readiness
-- Boston-based career-building and applied AI community work
+- AI-enabled workflow improvement and organizational readiness
+- Boston-based applied AI, career readiness, and community work
+
+## Selected work
+
+- [Portfolio website](https://ajaneeigharo.com/) - curated projects, writing, and career signal
+- [Closing the Loop in Customer Portal Journeys](https://ajaneeigharo.com/work/mychart-patient-portal) - product analytics case study on fragmented digital service workflows
+- [GitHub case-study repository](https://github.com/AjaneeI/closing-the-loop-patient-portals) - supporting artifacts, measurement approach, and responsible AI scope
+
+## What my projects are meant to show
+
+- Clear problem framing before solution design
+- Evidence synthesis and stakeholder-ready communication
+- KPI design, tradeoff thinking, and operating-model awareness
+- Practical use of AI for workflows, documentation, and decision support
 
 ## Connect
 
