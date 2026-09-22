@@ -1,10 +1,13 @@
 # Ajanee Igharo
 
-Applied AI Engineering / Applied AI for Knowledge Work
+**Applied AI Engineering · AI for Knowledge Work**
 
-I build and evaluate AI systems for real organizational work. My current focus is agentic analytics, workflow automation, evaluation, guardrails, human oversight, and the practical tradeoffs involved in moving AI from demos into reliable workflows.
+I build and evaluate AI systems for real organizational workflows. My current work focuses on agent systems, tool use, evaluation, workflow automation, guardrails, observability, structured data, and human oversight.
 
-I currently work at the Paul English Applied AI Institute at UMass Boston as an AI Programs & Operations Coordinator while completing an MBA. My portfolio combines hands-on AI engineering work with experience translating emerging technology into programs, workflows, and decisions people can actually use.
+**Applied AI Programs & Operations Coordinator**  
+Paul English Applied Artificial Intelligence Institute, UMass Boston
+
+I am also completing an MBA at UMass Boston.
 
 ## Current focus
 
@@ -14,21 +17,23 @@ I currently work at the Paul English Applied AI Institute at UMass Boston as an 
 - Human oversight, safety boundaries, and reliable automation
 - Enterprise AI implementation and adoption
 
-## Selected work
+## Selected Work
 
 ### [Agentic Analytics Lab](https://github.com/AjaneeI/agentic-analytics-lab)
-A measurable applied-AI engineering lab testing when a routed or specialist-agent architecture is worth the added latency, tool calls, cost, and maintenance compared with a strong single-agent baseline.
+A measurable applied AI engineering lab testing when a routed or specialist-agent architecture is worth the added latency, tool calls, cost, and maintenance compared with a strong single-agent baseline.
 
-Current work includes a Python single-agent analytics baseline, read-only ClickHouse tooling, semantic metric guards, an Ollama adapter, a reproducible evaluation runner, and 24 automated tests. I am stabilizing and benchmarking the single-agent system before building the routed comparison.
+Current work includes a Python single-agent analytics baseline, read-only ClickHouse tooling, semantic metric guards, an Ollama adapter, a reproducible evaluation runner, automated regression coverage, GitHub Actions CI, and CodeQL security analysis. I am stabilizing and benchmarking the single-agent system before building the routed comparison.
 
 ### [HomeOps Agent](https://github.com/AjaneeI/homeops-agent)
-An agentic operations prototype for the home with explicit tool contracts, approval gates for safety-sensitive actions, failure handling, and an audit trail.
+An agentic operations prototype for the home with explicit tool contracts, simulated devices, approval gates for safety-sensitive actions, failure handling, human-in-the-loop controls, and an audit trail.
 
-### [Hermes Meeting Action](https://github.com/AjaneeI/hermes-meeting-action)
-Workflow automation work focused on turning meeting context into actionable follow-through.
-
-### [Closing the Loop in Patient Portals](https://github.com/AjaneeI/closing-the-loop-patient-portals)
+### [Closing the Loop in Customer Portal Journeys](https://github.com/AjaneeI/closing-the-loop-patient-portals)
 A product and analytics case study on fragmented digital-service workflows, included as earlier work showing problem framing, measurement design, and responsible-AI thinking.
+
+## In Progress
+
+### [Hermes Meeting → Action](https://github.com/AjaneeI/hermes-meeting-action)
+Workflow automation work focused on turning meeting context into actionable follow-through.
 
 ## What my projects are meant to show
 
