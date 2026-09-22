@@ -22,7 +22,7 @@ I am also completing an MBA at UMass Boston.
 ### [Agentic Analytics Lab](https://github.com/AjaneeI/agentic-analytics-lab)
 A measurable applied AI engineering lab testing when a routed or specialist-agent architecture is worth the added latency, tool calls, cost, and maintenance compared with a strong single-agent baseline.
 
-Current work includes a Python single-agent analytics baseline, read-only ClickHouse tooling, semantic metric guards, an Ollama adapter, a reproducible evaluation runner, automated regression coverage, GitHub Actions CI, and CodeQL security analysis. I am stabilizing and benchmarking the single-agent system before building the routed comparison.
+Current work includes a Python analytics-agent baseline, dataset-scoped read-only ClickHouse tooling, semantic metric guards, reproducible evaluation infrastructure, automated regression coverage, Python 3.11/3.12 CI, CodeQL, and an evaluated oracle-metadata routed execution experiment. The routed experiment tests specialized execution when task categories are already known; natural-language route inference remains a separate, unvalidated problem.
 
 ### [HomeOps Agent](https://github.com/AjaneeI/homeops-agent)
 An agentic operations prototype for the home with explicit tool contracts, simulated devices, approval gates for safety-sensitive actions, failure handling, human-in-the-loop controls, and an audit trail.
