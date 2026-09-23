@@ -41,6 +41,12 @@ A product and analytics case study on fragmented digital-service workflows, incl
 ### [Hermes Meeting → Action](https://github.com/AjaneeI/hermes-meeting-action)
 Workflow automation work focused on turning meeting context into actionable follow-through.
 
+## Selected publications & presentations
+
+- [AI-Powered Personal Branding: A Coaching Toolkit for Career Advisors](https://scholarworks.umb.edu/ai_pubs/47/) — UMass Boston ScholarWorks, 2026
+- [Spring AI 2026 Workshop and Speaker Series Report](https://scholarworks.umb.edu/ai_pubs/43/) — co-author, UMass Boston ScholarWorks, 2026
+- [AI As An Equalizer: Empowering Underrepresented Students for High-Demand Careers](https://scholarworks.umb.edu/ai_pubs/16/) — UMass Boston ScholarWorks, 2025
+
 ## What my projects are meant to show
 
 - I start with a clear systems question before adding architectural complexity.
