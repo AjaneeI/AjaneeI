@@ -3,34 +3,35 @@
 <desc id="desc">Four selected Applied AI projects: Agentic Analytics Lab, HomeOps Agent, Midnight Reminder, and Hermes Meeting to Action.</desc>
 <rect width="720" height="970" rx="24" fill="#0E0D0C"/>
 <text x="44" y="62" fill="#B66A45" font-family="Inter,system-ui,sans-serif" font-size="16" font-weight="700" letter-spacing="2">SELECTED SYSTEMS</text>
-<text x="44" y="108" fill="#F4E9DA" font-family="Inter,system-ui,sans-serif" font-size="34" font-weight="750">Different systems. Same engineering question.</text>
-<text x="44" y="144" fill="#B1A598" font-family="Inter,system-ui,sans-serif" font-size="18">What would make this useful enough to trust, measure, and operate?</text>
+<text x="44" y="106" fill="#F4E9DA" font-family="Inter,system-ui,sans-serif" font-size="32" font-weight="750">Different systems.</text>
+<text x="44" y="144" fill="#F4E9DA" font-family="Inter,system-ui,sans-serif" font-size="32" font-weight="750">Same engineering question.</text>
+<text x="44" y="180" fill="#B1A598" font-family="Inter,system-ui,sans-serif" font-size="17">What would make this useful enough to trust, measure, and operate?</text>
 
 <g font-family="Inter,system-ui,sans-serif">
-  <rect x="44" y="192" width="632" height="160" rx="20" fill="#181613" stroke="#B66A45"/>
-  <text x="68" y="226" fill="#B66A45" font-size="13" font-weight="700" letter-spacing="1.2">FLAGSHIP · EVALUATION + ROUTING</text>
-  <text x="68" y="264" fill="#F4E9DA" font-size="25" font-weight="750">Agentic Analytics Lab</text>
-  <text x="68" y="298" fill="#B1A598" font-size="16">When does routing earn its complexity?</text>
-  <text x="68" y="326" fill="#82786F" font-size="14">146 tests · ClickHouse · deterministic evals · routed execution</text>
+  <rect x="44" y="216" width="632" height="160" rx="20" fill="#181613" stroke="#B66A45"/>
+  <text x="68" y="250" fill="#B66A45" font-size="13" font-weight="700" letter-spacing="1.2">FLAGSHIP · EVALUATION + ROUTING</text>
+  <text x="68" y="288" fill="#F4E9DA" font-size="25" font-weight="750">Agentic Analytics Lab</text>
+  <text x="68" y="322" fill="#B1A598" font-size="16">When does routing earn its complexity?</text>
+  <text x="68" y="350" fill="#82786F" font-size="14">146 tests · ClickHouse · deterministic evals · routed execution</text>
 
-  <rect x="44" y="374" width="632" height="160" rx="20" fill="#181613" stroke="#71856A"/>
-  <text x="68" y="408" fill="#71856A" font-size="13" font-weight="700" letter-spacing="1.2">AGENTS · SAFETY + HUMAN CONTROL</text>
-  <text x="68" y="446" fill="#F4E9DA" font-size="25" font-weight="750">HomeOps Agent</text>
-  <text x="68" y="480" fill="#B1A598" font-size="16">Where should automation stop and ask a person?</text>
-  <text x="68" y="508" fill="#82786F" font-size="14">12 tests · approval gates · audit trail · Chromium parity</text>
+  <rect x="44" y="398" width="632" height="160" rx="20" fill="#181613" stroke="#71856A"/>
+  <text x="68" y="432" fill="#71856A" font-size="13" font-weight="700" letter-spacing="1.2">AGENTS · SAFETY + HUMAN CONTROL</text>
+  <text x="68" y="470" fill="#F4E9DA" font-size="25" font-weight="750">HomeOps Agent</text>
+  <text x="68" y="504" fill="#B1A598" font-size="16">Where should automation stop and ask a person?</text>
+  <text x="68" y="532" fill="#82786F" font-size="14">12 tests · approval gates · audit trail · Chromium parity</text>
 
-  <rect x="44" y="556" width="632" height="160" rx="20" fill="#181613" stroke="#A58A6A"/>
-  <text x="68" y="590" fill="#A58A6A" font-size="13" font-weight="700" letter-spacing="1.2">TEST-DRIVEN SYSTEMS · PRECISION</text>
-  <text x="68" y="628" fill="#F4E9DA" font-size="25" font-weight="750">Midnight Reminder</text>
-  <text x="68" y="662" fill="#B1A598" font-size="16">Can a small extension stay exact across time and sessions?</text>
-  <text x="68" y="690" fill="#82786F" font-size="14">12 tests · TypeScript clean · persistent state · Pi runtime</text>
+  <rect x="44" y="580" width="632" height="160" rx="20" fill="#181613" stroke="#A58A6A"/>
+  <text x="68" y="614" fill="#A58A6A" font-size="13" font-weight="700" letter-spacing="1.2">TEST-DRIVEN SYSTEMS · PRECISION</text>
+  <text x="68" y="652" fill="#F4E9DA" font-size="25" font-weight="750">Midnight Reminder</text>
+  <text x="68" y="686" fill="#B1A598" font-size="16">Can a small extension stay exact across time and sessions?</text>
+  <text x="68" y="714" fill="#82786F" font-size="14">12 tests · TypeScript clean · persistent state · Pi runtime</text>
 
-  <rect x="44" y="738" width="632" height="160" rx="20" fill="#181613" stroke="#7A2E3A"/>
-  <text x="68" y="772" fill="#A76B73" font-size="13" font-weight="700" letter-spacing="1.2">IN PROGRESS · KNOWLEDGE-WORK AUTOMATION</text>
-  <text x="68" y="810" fill="#F4E9DA" font-size="25" font-weight="750">Hermes Meeting → Action</text>
-  <text x="68" y="844" fill="#B1A598" font-size="16">Can meeting context become reliable, traceable follow-through?</text>
-  <text x="68" y="872" fill="#82786F" font-size="14">v0.1 schema · six-case evaluation baseline · build in progress</text>
+  <rect x="44" y="762" width="632" height="160" rx="20" fill="#181613" stroke="#7A2E3A"/>
+  <text x="68" y="796" fill="#A76B73" font-size="13" font-weight="700" letter-spacing="1.2">IN PROGRESS · KNOWLEDGE-WORK AUTOMATION</text>
+  <text x="68" y="834" fill="#F4E9DA" font-size="25" font-weight="750">Hermes Meeting → Action</text>
+  <text x="68" y="868" fill="#B1A598" font-size="16">Can meeting context become reliable, traceable follow-through?</text>
+  <text x="68" y="896" fill="#82786F" font-size="14">v0.1 schema · six-case evaluation baseline · build in progress</text>
 
-  <text x="44" y="936" fill="#82786F" font-size="14">Earlier systems thinking: Closing the Loop, product analytics + responsible AI.</text>
+  <text x="44" y="952" fill="#82786F" font-size="14">Earlier systems thinking: Closing the Loop, product analytics + responsible AI.</text>
 </g>
 </svg>
