@@ -34,7 +34,7 @@ An agentic operations prototype for the home with explicit tool contracts, simul
 ### [Closing the Loop in Customer Portal Journeys](https://github.com/AjaneeI/closing-the-loop-patient-portals)
 A product and analytics case study on fragmented digital-service workflows, included as earlier work showing problem framing, measurement design, and responsible-AI thinking.
 
-[Live case study](https://ajaneeigharo.com/work/closing-the-loop)
+[Live case study](https://ajaneeigharo.com/work/mychart-patient-portal)
 
 ## In Progress
 
