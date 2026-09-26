@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+<title id="title">Ajanee Igharo, Applied AI Engineering</title>
+<desc id="desc">Ajanee Igharo builds and evaluates AI systems for real-world workflows, with a focus on agents, evaluation, workflow automation, tool use, and human oversight.</desc>
+<rect width="720" height="360" rx="24" fill="#0E0D0C"/>
+<rect x="36" y="34" width="6" height="292" rx="3" fill="#B66A45"/>
+
+<text x="66" y="66" fill="#B66A45" font-family="Inter,system-ui,sans-serif" font-size="15" font-weight="700" letter-spacing="1.8">AJANEE IGHARO</text>
+<text x="66" y="101" fill="#82786F" font-family="Inter,system-ui,sans-serif" font-size="15" font-weight="650" letter-spacing="1.1">APPLIED AI ENGINEERING</text>
+
+<text x="66" y="158" fill="#F4E9DA" font-family="Inter,system-ui,sans-serif" font-size="37" font-weight="760">I build AI systems for</text>
+<text x="66" y="205" fill="#F4E9DA" font-family="Inter,system-ui,sans-serif" font-size="37" font-weight="760">real-world workflows.</text>
+
+<text x="66" y="248" fill="#B1A598" font-family="Inter,system-ui,sans-serif" font-size="17">Agents · evaluation · workflow automation · human oversight</text>
+
+<rect x="66" y="278" width="128" height="34" rx="17" fill="#201D1A" stroke="#B66A45"/>
+<text x="130" y="300" text-anchor="middle" fill="#F4E9DA" font-family="Inter,system-ui,sans-serif" font-size="14" font-weight="650">BUILD</text>
+<rect x="206" y="278" width="128" height="34" rx="17" fill="#263126" stroke="#71856A"/>
+<text x="270" y="300" text-anchor="middle" fill="#E7ECD9" font-family="Inter,system-ui,sans-serif" font-size="14" font-weight="650">MEASURE</text>
+<rect x="346" y="278" width="128" height="34" rx="17" fill="#31281F" stroke="#B98A54"/>
+<text x="410" y="300" text-anchor="middle" fill="#F4E9DA" font-family="Inter,system-ui,sans-serif" font-size="14" font-weight="650">BOUND</text>
+
+<g transform="translate(548 82)" font-family="Inter,system-ui,sans-serif">
+  <circle cx="62" cy="78" r="34" fill="#181613" stroke="#B66A45" stroke-width="2"/>
+  <circle cx="62" cy="78" r="8" fill="#F4E9DA"/>
+  <path d="M62 44 V14 M94 78 H126 M62 112 V142 M30 78 H-2" stroke="#3C3732" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="62" cy="10" r="10" fill="#B66A45"/>
+  <circle cx="130" cy="78" r="10" fill="#71856A"/>
+  <circle cx="62" cy="146" r="10" fill="#B98A54"/>
+  <circle cx="-6" cy="78" r="10" fill="#7A2E3A"/>
+  <text x="62" y="-10" text-anchor="middle" fill="#B66A45" font-size="11" font-weight="700">TOOLS</text>
+  <text x="160" y="82" fill="#71856A" font-size="11" font-weight="700">EVALS</text>
+  <text x="62" y="174" text-anchor="middle" fill="#B98A54" font-size="11" font-weight="700">HUMAN</text>
+  <text x="-10" y="56" text-anchor="middle" fill="#A76B73" font-size="11" font-weight="700">GUARDS</text>
+</g>
+
+<text x="66" y="337" fill="#82786F" font-family="Inter,system-ui,sans-serif" font-size="13">Python · SQL · ClickHouse · TypeScript · GitHub Actions</text>
+</svg>
