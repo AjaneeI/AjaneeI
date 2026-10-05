@@ -9,38 +9,59 @@
 
 <p align="center">
   <a href="https://ajaneeigharo.com/"><strong>Portfolio</strong></a> ·
-  <a href="#selected-systems">Selected systems</a> ·
+  <a href="#selected-work">Selected work</a> ·
   <a href="https://www.linkedin.com/in/ajaneeigharo/">LinkedIn</a>
 </p>
 
-## Selected systems
+## Selected work
 
-### [Agentic Analytics Lab](https://github.com/AjaneeI/agentic-analytics-lab)
-**Flagship · Python · SQL · ClickHouse · agent evaluation**
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <p><strong>01 · Evaluation lab</strong></p>
+      <h3><a href="https://github.com/AjaneeI/agentic-analytics-lab">Agentic Analytics Lab</a></h3>
+      <p>Single-agent vs. routed analytics over synthetic data, with read-only tools and deterministic scoring.</p>
+      <p><code>Python</code> <code>SQL</code> <code>ClickHouse</code></p>
+      <p><a href="https://github.com/AjaneeI/agentic-analytics-lab/blob/main/ARCHITECTURE.md">Architecture</a> · <a href="https://github.com/AjaneeI/agentic-analytics-lab#evaluation-method">Evaluation</a> · <a href="https://github.com/AjaneeI/agentic-analytics-lab/actions">CI</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <p><strong>02 · Safety prototype</strong></p>
+      <h3><a href="https://github.com/AjaneeI/homeops-agent">HomeOps Agent</a></h3>
+      <p>A simulated-device workflow with allowlisted actions, human approval requests, and inspectable failure handling.</p>
+      <p><code>Python</code> <code>Strands</code> <code>Playwright</code></p>
+      <p><a href="https://github.com/AjaneeI/homeops-agent#safety-model">Safety model</a> · <a href="https://github.com/AjaneeI/homeops-agent#demo">Demo</a> · <a href="https://github.com/AjaneeI/homeops-agent/actions">CI</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <p><strong>03 · Evidence prototype</strong></p>
+      <h3><a href="https://github.com/AjaneeI/agent-systems-evidence-scout">Evidence Scout</a></h3>
+      <p>An arXiv research agent that checks citations outside the model and withholds drafts with unverified citations.</p>
+      <p><code>Python</code> <code>smolagents</code> <code>Gradio</code></p>
+      <p><a href="https://github.com/AjaneeI/agent-systems-evidence-scout#live-demo">Demo</a> · <a href="https://github.com/AjaneeI/agent-systems-evidence-scout#what-the-live-test-caught">Failure analysis</a> · <a href="https://github.com/AjaneeI/agent-systems-evidence-scout/actions">CI</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <p><strong>04 · Product case study</strong></p>
+      <h3><a href="https://github.com/AjaneeI/closing-the-loop-patient-portals">Closing the Loop</a></h3>
+      <p>A portal-workflow concept connecting ownership, source-linked information, and a measurable definition of completion.</p>
+      <p><code>Analytics</code> <code>KPI design</code></p>
+      <p><a href="https://github.com/AjaneeI/closing-the-loop-patient-portals/blob/main/docs/case-study.md">Case study</a> · <a href="https://github.com/AjaneeI/closing-the-loop-patient-portals/blob/main/docs/metrics-and-measurement.md">Metrics</a> · <a href="https://github.com/AjaneeI/closing-the-loop-patient-portals/blob/main/docs/research-and-evidence.md">Research</a></p>
+    </td>
+  </tr>
+</table>
 
-**When does routing earn its complexity?** An analytics-agent lab comparing a single-agent baseline with routed execution over synthetic operational data. I built read-only, dataset-scoped tools, semantic metric guards, deterministic evaluation, and route telemetry.
+<details>
+<summary><strong>Engineering evidence and scope</strong></summary>
 
-**Evidence:** reproducible experiments, regression tests, and CI/CodeQL workflows. The reviewed oracle-metadata comparison supplies the route; it does **not** establish natural-language routing quality or production performance.
+**Agentic Analytics Lab — when does routing earn its complexity?** I built dataset-scoped ClickHouse tools, semantic metric guards, deterministic evaluation, and route telemetry. The reviewed oracle-metadata comparison supplies the intended route: it tests execution, not natural-language route selection or production performance. Regression tests and CI/CodeQL workflows accompany the experiments.
 
-[Architecture](https://github.com/AjaneeI/agentic-analytics-lab/blob/main/ARCHITECTURE.md) · [Evaluation and limitations](https://github.com/AjaneeI/agentic-analytics-lab#evaluation-method) · [CI](https://github.com/AjaneeI/agentic-analytics-lab/actions)
+**HomeOps Agent — where should automation stop?** The Good Night Check workflow keeps uncertain lock states and failed devices on a human-controlled path. Deterministic policy tests and Chromium scenario-parity checks cover the public demo. Devices are simulated; this is not a production smart-home deployment.
 
-### [HomeOps Agent](https://github.com/AjaneeI/homeops-agent)
-**Prototype · Python · Strands · human-in-the-loop controls**
+**Agent Systems Evidence Scout — can citations be checked outside the model?** The model chooses research tools; deterministic Python checks arXiv citations against a per-run verification registry. Evidence includes offline regression tests, a documented live Hugging Face + arXiv run, and a browser-tested interface. Verification checks paper identity and sourcing, not whether every research conclusion is true.
 
-**Where should automation stop and ask a person?** A Good Night Check workflow with explicit tool contracts, allowlisted low-risk actions, human approval requests, and an inspectable audit trail. Uncertain lock states and device failures do not become permission to act.
+**Closing the Loop — how do workflows reach completion?** This earlier product and analytics case study connects workflow states, KPI design, evidence synthesis, and responsible-AI boundaries. It is a concept based on secondary research, not deployed software. Proposed targets are hypotheses to validate, not measured outcomes.
 
-**Evidence:** deterministic policy tests and Chromium scenario-parity checks. The public demo uses **simulated devices**, not a production smart-home deployment.
-
-[Safety model](https://github.com/AjaneeI/homeops-agent#safety-model) · [Run the demo](https://github.com/AjaneeI/homeops-agent#demo) · [CI](https://github.com/AjaneeI/homeops-agent/actions)
-
-### [Agent Systems Evidence Scout](https://github.com/AjaneeI/agent-systems-evidence-scout)
-**Working prototype · Python · smolagents · Hugging Face · Gradio**
-
-**Can a research agent enforce its own evidence boundary?** The model chooses research tools; deterministic Python checks arXiv citations against a per-run verification registry and withholds drafts that fail the evidence contract.
-
-**Evidence:** offline regression tests, a documented live integration run, and a browser-tested interface. Citation verification checks paper identity and sourcing—not whether every research conclusion is true.
-
-[Demo](https://github.com/AjaneeI/agent-systems-evidence-scout#live-demo) · [Failure analysis](https://github.com/AjaneeI/agent-systems-evidence-scout#what-the-live-test-caught) · [CI](https://github.com/AjaneeI/agent-systems-evidence-scout/actions)
+</details>
 
 ## How I engineer
 
@@ -61,11 +82,9 @@ Psychology shaped how I think about behavior, trust, and decisions. Operations t
 Based in **Greater Boston**. Interested in applied AI engineering and AI solutions work involving agents, evaluation, and organizational workflows.
 
 <details>
-<summary><strong>More engineering and product work</strong></summary>
+<summary><strong>More engineering work</strong></summary>
 
 **[Midnight Reminder](https://github.com/AjaneeI/midnight-reminder-pi-extension)** · Implemented TypeScript extension with injected clock/storage interfaces, explicit time boundaries, cross-session duplicate prevention, and regression tests.
-
-**[Closing the Loop](https://github.com/AjaneeI/closing-the-loop-patient-portals)** · Earlier product and analytics case study: workflow friction, KPI design, and responsible-AI boundaries. A concept and measurement strategy, not deployed software.
 
 **[Hermes Meeting → Action](https://github.com/AjaneeI/hermes-meeting-action)** · In progress. Structured action schema and evaluation fixtures are defined; the extraction runner and durable integrations remain implementation gates.
 
